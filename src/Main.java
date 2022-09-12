@@ -15,10 +15,10 @@ public class Main {
 
         // Задание 3
         System.out.println("Задание 3:");
-        byte capacity1 = 103;
+        byte capacity1 = 102;
         if (capacity1<=60) {System.out.println("Еще есть сидячие места!");}
         if (capacity1>60 && capacity1<102) {System.out.println("Стоя, но я доеду");}
-        if (capacity1>102) System.out.println("Мест нет");
+        if (capacity1>=102) System.out.println("Мест нет");
 
     }
 }
